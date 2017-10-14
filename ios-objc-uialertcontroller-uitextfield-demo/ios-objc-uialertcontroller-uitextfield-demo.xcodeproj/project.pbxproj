@@ -14,6 +14,7 @@
 		B6D53A831F91C3FA004872E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D53A811F91C3FA004872E0 /* LaunchScreen.storyboard */; };
 		B6D53A861F91C3FA004872E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D53A851F91C3FA004872E0 /* main.m */; };
 		B6D53A901F91C3FB004872E0 /* ios_objc_uialertcontroller_uitextfield_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D53A8F1F91C3FB004872E0 /* ios_objc_uialertcontroller_uitextfield_demoTests.m */; };
+		B6D53A9D1F91C7CC004872E0 /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D53A9C1F91C7CC004872E0 /* UIViewController+Alert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B6D53A8B1F91C3FB004872E0 /* ios-objc-uialertcontroller-uitextfield-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-objc-uialertcontroller-uitextfield-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D53A8F1F91C3FB004872E0 /* ios_objc_uialertcontroller_uitextfield_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_objc_uialertcontroller_uitextfield_demoTests.m; sourceTree = "<group>"; };
 		B6D53A911F91C3FB004872E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D53A9B1F91C7CC004872E0 /* UIViewController+Alert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alert.h"; sourceTree = "<group>"; };
+		B6D53A9C1F91C7CC004872E0 /* UIViewController+Alert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alert.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		B6D53A751F91C3FA004872E0 /* ios-objc-uialertcontroller-uitextfield-demo */ = {
 			isa = PBXGroup;
 			children = (
+				B6D53A9A1F91C7A2004872E0 /* Categories */,
 				B6D53A761F91C3FA004872E0 /* AppDelegate.h */,
 				B6D53A771F91C3FA004872E0 /* AppDelegate.m */,
 				B6D53A791F91C3FA004872E0 /* ViewController.h */,
@@ -101,6 +105,15 @@
 				B6D53A911F91C3FB004872E0 /* Info.plist */,
 			);
 			path = "ios-objc-uialertcontroller-uitextfield-demoTests";
+			sourceTree = "<group>";
+		};
+		B6D53A9A1F91C7A2004872E0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B6D53A9B1F91C7CC004872E0 /* UIViewController+Alert.h */,
+				B6D53A9C1F91C7CC004872E0 /* UIViewController+Alert.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +221,7 @@
 				B6D53A7B1F91C3FA004872E0 /* ViewController.m in Sources */,
 				B6D53A861F91C3FA004872E0 /* main.m in Sources */,
 				B6D53A781F91C3FA004872E0 /* AppDelegate.m in Sources */,
+				B6D53A9D1F91C7CC004872E0 /* UIViewController+Alert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

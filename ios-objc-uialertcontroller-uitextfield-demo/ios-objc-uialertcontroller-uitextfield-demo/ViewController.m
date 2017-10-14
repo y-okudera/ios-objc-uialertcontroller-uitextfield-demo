@@ -8,9 +8,10 @@
 
 #import "ViewController.h"
 
+#import "UIViewController+Alert.h"
+
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UITextField *centerTextField;
-@property (nonatomic) UIAlertController *alert;
+@property (weak, nonatomic) IBOutlet UILabel *outputLabel;
 @end
 
 @implementation ViewController
@@ -24,7 +25,16 @@
 #pragma mark - IBActions
 
 - (IBAction)didTapShowAlertButton:(UIButton *)sender {
-    [self showAlertWithSavedText:self.centerTextField.text];
+    
+    __weak typeof(self) weakSelf = self;
+    [self showAlertWithTextfield:self.outputLabel.text
+                     placeholder:@"テキストを入力してください。"
+                      alertTitle:@"タイトル"
+                    alertMessage:@"テキスト"
+          textFieldTextDidChange:@selector(alertTextFieldTextDidChange:)
+                 okActionHandler:^(NSString *outputText) {
+                     weakSelf.outputLabel.text = outputText;
+                 }];
 }
 
 #pragma mark - Selector
@@ -36,76 +46,7 @@
     // 0以下の場合は、AlertのOKボタンのenabled = NO
     NSUInteger textLength = textField.text.length;
     BOOL enabledAlertOKButton = textLength > 0;
-    self.alert.actions.lastObject.enabled = enabledAlertOKButton;
-}
-
-#pragma mark - Alert
-
-- (void)showAlertWithSavedText:(NSString *)text {
-    self.alert = [UIAlertController alertControllerWithTitle:@"タイトル"
-                                                     message:@"メッセージ"
-                                              preferredStyle:UIAlertControllerStyleAlert];
-    
-    // 1. Blocks（無名関数）の中で「self」にアクセスすると循環参照になるため弱参照のweakSelfを定義
-    __weak typeof(self) weakSelf = self;
-    
-    [self.alert addTextFieldWithConfigurationHandler:^(UITextField *textField) {
-        // 「weakSelf」は弱参照のため循環参照にはならないが、nilになってしまう可能性がある
-        // 2. 「weakSelf」がBlock内の処理実行中にnilになってしまうのを防ぐために「weakSelf」の強参照を持つ
-        __strong typeof(self) strongSelf = weakSelf;
-        
-        // 3. 「strongSelf」を定義する前に「weakSelf」がnilになっていると、「strongSelf」もnilになるのでnilチェックをする
-        if (!strongSelf) {
-            return;
-        }
-        
-        textField.placeholder = @"テキストを入力してください。";
-        textField.text = text;
-        
-        // TextFieldに通知を登録
-        [NSNotificationCenter.defaultCenter addObserver:strongSelf
-                                               selector:@selector(alertTextFieldTextDidChange:)
-                                                   name:UITextFieldTextDidChangeNotification
-                                                 object:textField];
-    }];
-    
-    
-    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        
-        __strong typeof(self) strongSelf = weakSelf;
-        if (!strongSelf) {
-            return;
-        }
-        
-        // Alert内のTextFieldがnilでなければ、ViewControllerのTextFieldにtextを渡す
-        UITextField *alertTextField = strongSelf.alert.textFields.firstObject;
-        if (alertTextField) {
-            strongSelf.centerTextField.text = alertTextField.text;
-        }
-        
-        // TextFieldに登録した通知を削除
-        [NSNotificationCenter.defaultCenter removeObserver:alertTextField];
-    }];
-    
-    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"キャンセル" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-        
-        __strong typeof(self) strongSelf = weakSelf;
-        if (!strongSelf) {
-            return;
-        }
-        
-        UITextField *alertTextField = strongSelf.alert.textFields.firstObject;
-        // TextFieldに登録した通知を削除
-        [NSNotificationCenter.defaultCenter removeObserver:alertTextField];
-    }];
-    
-    // 引数のtextの長さによって、OKボタンの初期状態を設定
-    BOOL enabledOKButton = text && text.length > 0;
-    okAction.enabled = enabledOKButton;
-    
-    [self.alert addAction:cancelAction];
-    [self.alert addAction:okAction];
-    [self presentViewController:self.alert animated:YES completion:nil];
+    self.alertWithTextfield.actions.lastObject.enabled = enabledAlertOKButton;
 }
 
 @end
