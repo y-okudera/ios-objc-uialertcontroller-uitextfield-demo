@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6D53A781F91C3FA004872E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D53A771F91C3FA004872E0 /* AppDelegate.m */; };
+		B6D53A7B1F91C3FA004872E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D53A7A1F91C3FA004872E0 /* ViewController.m */; };
+		B6D53A7E1F91C3FA004872E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D53A7C1F91C3FA004872E0 /* Main.storyboard */; };
+		B6D53A801F91C3FA004872E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D53A7F1F91C3FA004872E0 /* Assets.xcassets */; };
+		B6D53A831F91C3FA004872E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D53A811F91C3FA004872E0 /* LaunchScreen.storyboard */; };
+		B6D53A861F91C3FA004872E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D53A851F91C3FA004872E0 /* main.m */; };
+		B6D53A901F91C3FB004872E0 /* ios_objc_uialertcontroller_uitextfield_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D53A8F1F91C3FB004872E0 /* ios_objc_uialertcontroller_uitextfield_demoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6D53A8C1F91C3FB004872E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6D53A6B1F91C3FA004872E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6D53A721F91C3FA004872E0;
+			remoteInfo = "ios-objc-uialertcontroller-uitextfield-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6D53A731F91C3FA004872E0 /* ios-objc-uialertcontroller-uitextfield-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-objc-uialertcontroller-uitextfield-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D53A761F91C3FA004872E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6D53A771F91C3FA004872E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6D53A791F91C3FA004872E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6D53A7A1F91C3FA004872E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6D53A7D1F91C3FA004872E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6D53A7F1F91C3FA004872E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6D53A821F91C3FA004872E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6D53A841F91C3FA004872E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D53A851F91C3FA004872E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6D53A8B1F91C3FB004872E0 /* ios-objc-uialertcontroller-uitextfield-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-objc-uialertcontroller-uitextfield-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D53A8F1F91C3FB004872E0 /* ios_objc_uialertcontroller_uitextfield_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_objc_uialertcontroller_uitextfield_demoTests.m; sourceTree = "<group>"; };
+		B6D53A911F91C3FB004872E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6D53A701F91C3FA004872E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D53A881F91C3FB004872E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6D53A6A1F91C3FA004872E0 = {
+			isa = PBXGroup;
+			children = (
+				B6D53A751F91C3FA004872E0 /* ios-objc-uialertcontroller-uitextfield-demo */,
+				B6D53A8E1F91C3FB004872E0 /* ios-objc-uialertcontroller-uitextfield-demoTests */,
+				B6D53A741F91C3FA004872E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6D53A741F91C3FA004872E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6D53A731F91C3FA004872E0 /* ios-objc-uialertcontroller-uitextfield-demo.app */,
+				B6D53A8B1F91C3FB004872E0 /* ios-objc-uialertcontroller-uitextfield-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6D53A751F91C3FA004872E0 /* ios-objc-uialertcontroller-uitextfield-demo */ = {
+			isa = PBXGroup;
+			children = (
+				B6D53A761F91C3FA004872E0 /* AppDelegate.h */,
+				B6D53A771F91C3FA004872E0 /* AppDelegate.m */,
+				B6D53A791F91C3FA004872E0 /* ViewController.h */,
+				B6D53A7A1F91C3FA004872E0 /* ViewController.m */,
+				B6D53A7C1F91C3FA004872E0 /* Main.storyboard */,
+				B6D53A7F1F91C3FA004872E0 /* Assets.xcassets */,
+				B6D53A811F91C3FA004872E0 /* LaunchScreen.storyboard */,
+				B6D53A841F91C3FA004872E0 /* Info.plist */,
+				B6D53A851F91C3FA004872E0 /* main.m */,
+			);
+			path = "ios-objc-uialertcontroller-uitextfield-demo";
+			sourceTree = "<group>";
+		};
+		B6D53A8E1F91C3FB004872E0 /* ios-objc-uialertcontroller-uitextfield-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6D53A8F1F91C3FB004872E0 /* ios_objc_uialertcontroller_uitextfield_demoTests.m */,
+				B6D53A911F91C3FB004872E0 /* Info.plist */,
+			);
+			path = "ios-objc-uialertcontroller-uitextfield-demoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6D53A721F91C3FA004872E0 /* ios-objc-uialertcontroller-uitextfield-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D53A941F91C3FB004872E0 /* Build configuration list for PBXNativeTarget "ios-objc-uialertcontroller-uitextfield-demo" */;
+			buildPhases = (
+				B6D53A6F1F91C3FA004872E0 /* Sources */,
+				B6D53A701F91C3FA004872E0 /* Frameworks */,
+				B6D53A711F91C3FA004872E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-objc-uialertcontroller-uitextfield-demo";
+			productName = "ios-objc-uialertcontroller-uitextfield-demo";
+			productReference = B6D53A731F91C3FA004872E0 /* ios-objc-uialertcontroller-uitextfield-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6D53A8A1F91C3FB004872E0 /* ios-objc-uialertcontroller-uitextfield-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6D53A971F91C3FB004872E0 /* Build configuration list for PBXNativeTarget "ios-objc-uialertcontroller-uitextfield-demoTests" */;
+			buildPhases = (
+				B6D53A871F91C3FB004872E0 /* Sources */,
+				B6D53A881F91C3FB004872E0 /* Frameworks */,
+				B6D53A891F91C3FB004872E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6D53A8D1F91C3FB004872E0 /* PBXTargetDependency */,
+			);
+			name = "ios-objc-uialertcontroller-uitextfield-demoTests";
+			productName = "ios-objc-uialertcontroller-uitextfield-demoTests";
+			productReference = B6D53A8B1F91C3FB004872E0 /* ios-objc-uialertcontroller-uitextfield-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6D53A6B1F91C3FA004872E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = OkuderaYuki;
+				TargetAttributes = {
+					B6D53A721F91C3FA004872E0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					B6D53A8A1F91C3FB004872E0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B6D53A721F91C3FA004872E0;
+					};
+				};
+			};
+			buildConfigurationList = B6D53A6E1F91C3FA004872E0 /* Build configuration list for PBXProject "ios-objc-uialertcontroller-uitextfield-demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6D53A6A1F91C3FA004872E0;
+			productRefGroup = B6D53A741F91C3FA004872E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6D53A721F91C3FA004872E0 /* ios-objc-uialertcontroller-uitextfield-demo */,
+				B6D53A8A1F91C3FB004872E0 /* ios-objc-uialertcontroller-uitextfield-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6D53A711F91C3FA004872E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D53A831F91C3FA004872E0 /* LaunchScreen.storyboard in Resources */,
+				B6D53A801F91C3FA004872E0 /* Assets.xcassets in Resources */,
+				B6D53A7E1F91C3FA004872E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D53A891F91C3FB004872E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6D53A6F1F91C3FA004872E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D53A7B1F91C3FA004872E0 /* ViewController.m in Sources */,
+				B6D53A861F91C3FA004872E0 /* main.m in Sources */,
+				B6D53A781F91C3FA004872E0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6D53A871F91C3FB004872E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D53A901F91C3FB004872E0 /* ios_objc_uialertcontroller_uitextfield_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6D53A8D1F91C3FB004872E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6D53A721F91C3FA004872E0 /* ios-objc-uialertcontroller-uitextfield-demo */;
+			targetProxy = B6D53A8C1F91C3FB004872E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6D53A7C1F91C3FA004872E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6D53A7D1F91C3FA004872E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6D53A811F91C3FA004872E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6D53A821F91C3FA004872E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6D53A921F91C3FB004872E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6D53A931F91C3FB004872E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6D53A951F91C3FB004872E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "ios-objc-uialertcontroller-uitextfield-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-objc-uialertcontroller-uitextfield-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6D53A961F91C3FB004872E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "ios-objc-uialertcontroller-uitextfield-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-objc-uialertcontroller-uitextfield-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6D53A981F91C3FB004872E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "ios-objc-uialertcontroller-uitextfield-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-objc-uialertcontroller-uitextfield-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-objc-uialertcontroller-uitextfield-demo.app/ios-objc-uialertcontroller-uitextfield-demo";
+			};
+			name = Debug;
+		};
+		B6D53A991F91C3FB004872E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PCCZJUYRT6;
+				INFOPLIST_FILE = "ios-objc-uialertcontroller-uitextfield-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-objc-uialertcontroller-uitextfield-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-objc-uialertcontroller-uitextfield-demo.app/ios-objc-uialertcontroller-uitextfield-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6D53A6E1F91C3FA004872E0 /* Build configuration list for PBXProject "ios-objc-uialertcontroller-uitextfield-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D53A921F91C3FB004872E0 /* Debug */,
+				B6D53A931F91C3FB004872E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D53A941F91C3FB004872E0 /* Build configuration list for PBXNativeTarget "ios-objc-uialertcontroller-uitextfield-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D53A951F91C3FB004872E0 /* Debug */,
+				B6D53A961F91C3FB004872E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6D53A971F91C3FB004872E0 /* Build configuration list for PBXNativeTarget "ios-objc-uialertcontroller-uitextfield-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6D53A981F91C3FB004872E0 /* Debug */,
+				B6D53A991F91C3FB004872E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6D53A6B1F91C3FA004872E0 /* Project object */;
+}
