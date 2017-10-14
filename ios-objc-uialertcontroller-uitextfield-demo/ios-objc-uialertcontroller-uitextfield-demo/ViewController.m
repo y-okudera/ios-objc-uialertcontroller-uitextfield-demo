@@ -30,7 +30,7 @@
     [self showAlertWithTextfield:self.outputLabel.text
                      placeholder:@"テキストを入力してください。"
                       alertTitle:@"タイトル"
-                    alertMessage:@"テキスト"
+                    alertMessage:@"メッセージ"
           textFieldTextDidChange:@selector(alertTextFieldTextDidChange:)
                  okActionHandler:^(NSString *outputText) {
                      weakSelf.outputLabel.text = outputText;
@@ -39,6 +39,9 @@
 
 #pragma mark - Selector
 
+/**
+ Alert内のTextFieldの文字が変更された時の処理
+ */
 - (void)alertTextFieldTextDidChange:(NSNotification *)notification {
     UITextField *textField = notification.object;
     
